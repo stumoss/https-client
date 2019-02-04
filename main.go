@@ -14,7 +14,7 @@ var config struct {
 }
 
 var rootCmd = &cobra.Command{
-	Use:   "https-client",
+	Use:   "https-client url",
 	Short: "Perform a HTTPS get request",
 	Long:  "Perform a HTTPS get request",
 	Args:  cobra.ExactArgs(1),
